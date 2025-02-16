@@ -12,7 +12,7 @@ VALUES
 (2, 'J.R.R. Tolkien'),
 (3, 'Jane Austen');
 
-INSERT INTO BookAuthors (ISBN, Name)
+INSERT INTO BookAuthors (ISBN, AuthorID)
 VALUES
 ('9781234567890', 1),
 ('9780321765723', 2),
