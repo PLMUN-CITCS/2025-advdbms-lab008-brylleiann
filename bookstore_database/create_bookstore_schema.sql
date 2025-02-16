@@ -5,7 +5,7 @@ use BookstoreDB;
 CREATE TABLE Books(
     ISBN VARCHAR(20) PRIMARY KEY,
     Title VARCHAR(255) NOT NULL,
-    Price DECIMAL(10,2) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL
 );
 
 CREATE TABLE Authors(
